@@ -1,0 +1,14 @@
+server:
+  port: 9010
+
+logging.file: logs/learning-devtools.log
+logging:
+  level:
+    ROOT: debug
+  file:
+    max-size: 10MB
+
+spring:
+  devtools:
+    remote:
+      secret: learning-devtools
